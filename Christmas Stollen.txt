@@ -1,6 +1,9 @@
+~ 2 loaves maybe I can't remember.
+Original recipe is 4x this recipe and makes 8 loaves or so.
+
 875g Flour
 425g Raisin
-250ml Rum
+250ml White Rum (cheap is fine)
 250ml Milk
 100g Fresh Yeast / ~50g Active Dry Yeast / ~25g Instant Yeast
 187.5g Butter
@@ -12,42 +15,51 @@
 125g Sugar
 40g Vanilla Sugar
 187.5g Sweet Almond
-57.5g Bitter Almond
+57.5g Bitter Almond / (near impossible to get in the US. just use a little almond extract)
 7.5g Salt
 
 Night Before:
-Mix rum with raisins
-Blanch almonds for 2 minutes (at most) then peel skins and let dry, flipping occasionally
+Mix rum with raisins, stirring every hour or two. Totally fine to just go to sleep and forget about it.
+Blanch almonds for 2 minutes (at most) then peel skins and let dry as much as possible, turning over occasionally
 
 Day of:
-Bring milk to 105F
+Bring milk to 105F (or which ever temp is best for your yeast to proof)
 Mix yeast with milk thoroughly until dissolved.
-Make well on one side of bowl with Flour
-pour half the yeast/milk mixture in and mix in some of the Flour then finish pouring and mixing until sponge forms
-Leaving ~1/2 of the flour not mixed in, cover and let proof until sponge doubles.
+    - With this much yeast, it takes a while. Use a whisk for best results.
+Make a well in flour on one side of a stupidly large bowl. 
+Pour half the yeast/milk mixture in and mix in some of the Flour with hands then finish pouring and mixing until sponge forms. Dont mix in more than 1/3 of the flour. Consistency should be a bit thinner than pudding.
+Leaving ~2/3 of the flour not mixed in, cover and let proof until sponge doubles.
 While waiting for proof, 
-    finely blend 1/2 sweet almonds until they stick to side of blender
-    Chop remaining sweet almonds into larger pieces for texture
+    finely blend 1/2 sweet almonds until they stick to side of blender. Going for a large sand grain texture.
+    Chop remaining sweet almonds into larger pieces. ~ 1/4 almond size if not sligtly smaller.
     Zest and juice lemons
-    finely grind bitter almonds
+    finely grind bitter almonds (ignore this step if using almond extract)
 After proofing finishes, mix sugar into yeast sponge (not incorporating too much extra flour)
-Add butter, margerine, and lard to sponge
-Add lemon juice (dont add too much)
+Add butter, margerine, and lard to sponge (make sure these are room temp or close to 80-90F)
+Add lemon juice (Dont add all of it if using very large lemons)
 Add lemon Zest
 Knead in the remaining flour until fully incorporated
 Knead in candied fruits
 Add salt and vanilla sugar then knead until incorporated
 Add sweet almonds while kneading
-Add bitter almonds and knead (dough will unglue from hands)
-Knead in raisins
-Adjust flour and sugar as needed by tasting
-Scratch dough with a spoon. When the dough tears, it is ready to rise.
-Let rise until doubled (~1hr)
+Add bitter almonds and knead (dough will unglue from hands) (just kinda wing it with the almond extract. Throw a splash or two in)
+Knead in raisins (Dough will get super sticky again due to the rum so have plenty of flour on the side to throw in while kneading.)
+    - Only add 1/4 raisins at a time and only add more when fully incorporated. It will look like too many raisins but more raisins is          better.
+Dough should not be sticking to hands however it should be tacky. Don't want to add too much flour.
+Taste dough and add flour/sugar/salt as needed. 
+Scratch dough with a spoon. When the dough tears, it is ready to rise. Or just hope it rises.
+Let rise in warm area (75-85F) until doubled (~1hr but go by size not time.)
 
+<<<<<<< HEAD
 Separate dough into ~1200g pieces then roll out and knead into a log shape then put onto greased baking tray
 score center of dough with back of a knife
 let rise for about 5-10min until crack separates
+=======
+Separate dough into ~1250g pieces then roll out and knead into a log shape then put onto greased baking tray
+score center of dough with back of a knife about 1/4" deep
+let rise for about 10-20min (depends on ambient temp in room) until crack separates
+>>>>>>> 5c45b0659127d94d9e4f051f54dbb97387b132a0
 Bake at 150C for like 40 minutes. Do toothpick test to verify it is done.
 Spread melted butter over top of bread then sprinkle with granulated and vanilla sugar
-Cover with powdered sugar or icing.
+Cover with powdered sugar (put a crapload on it) or icing.
 

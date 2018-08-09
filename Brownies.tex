@@ -1,0 +1,108 @@
+\documentclass{report}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{tabto}
+\usepackage[yyyymmdd]{datetime}		% Date Formatting
+\renewcommand{\dateseparator}{--}	% Date Formatting
+\usepackage{arydshln} 				% \hdashline and \cdashline
+\newcommand*{\tempb}{\multicolumn{1}{:c}{}} % Used for block matrices
+
+% For clickable TOC
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+% Custom Section Types
+\theoremstyle{plain} % italics
+\newtheorem*{thrm}{Theorem}
+\newtheorem*{lemma}{Lemma}
+\theoremstyle{definition} % normal type
+\newtheorem*{ex}{Example}
+\newtheorem*{defn}{Definition}
+\newtheorem*{result}{Result}
+\theoremstyle{plain} % italics
+
+% For circled text
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0.8pt] (char) {#1};}}
+
+% For equation system alignment
+\usepackage{systeme,mathtools}
+% Usage:
+%	\[
+%	\sysdelim.\}\systeme{
+%	3z +y = 10,
+%	x + y +  z = 6,
+%	3y - z = 13}
+
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+%If you want to title your bold things something different just make another thing exactly like this but replace "problem" with the name of the thing you want, like theorem or lemma or whatever
+ 
+%used for matrix vertical line
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother 
+ 
+% Change chapter numbering
+\newcommand{\mychapter}[2]{
+	\setcounter{chapter}{#1}
+	\setcounter{section}{0}
+	\chapter*{#2}
+	\addcontentsline{toc}{chapter}{#2}
+}
+
+\begin{document}
+% BUILD TOC
+%\tableofcontents{}
+\section*{Brownie Recipe}
+\section*{Ingredients}
+\begin{tabular}{r|l|l}
+Qty. & Ingredient & Note\\
+\hline
+1.5 cup & Unsalted Butter & Melt butter then cool till room temp\\
+3 cup & White Sugar\\
+6 & Eggs\\
+1 tsp & Vanilla Extract\\
+1 cup & Cocoa Powder & Try to get the best brand you can. I use Tollhouse brand\\
+1.5 cup & All Purpose Flour\\
+1 tsp & Kosher Salt\\
+1 tsp & Baking Powder\\
+0.5 cup & Chocolate Chips\\
+\hline
+\textbf{For Glaze:}\\
+\hline
+0.5 cup & whipping cream & 35\% fat content. Not a strict rule though\\
+4 oz & Chocolate Chips & Can use any chocolate here. Higher quality is better\\
+2.5 tbsp & Unsalted Butter & Room temp\\
+{} & Course Seasalt & For sprinkling on top of glaze
+\end{tabular}
+\section*{Directions}
+For brownies:
+\begin{enumerate}
+\item Cream together sugar and butter.
+\item Mix in eggs and vanilla until fully incorporated.
+\item In separate bowl, whist together flour, cocoa, baking powder, and salt.
+\item Mix in half of flour mixture to wet ingredients until it just comes together then mix in remaining flour mixture. Only mix until ingredients all mix in. Overmixing causes gluten to form and will result in a tougher brownie.
+\item Stir in chocolate chips until evenly distributed.
+\item Spread evenly in $9\times 13$ pan.
+\item Bake at $350^\circ$F for 35 minutes.
+\end{enumerate}
+For glaze:
+\begin{enumerate}
+\item Heat cream until just starting to simmer.
+\item Add butter and chocolate chips to bowl.
+\item Slowly pour cream over butter and chocolate chips, whisking until smooth.
+\item Pour over cooled brownies and let cool to room temp.
+\item Sprinkle seasalt over brownies to taste. Make sure to taste the brownies before adding salt to make sure they won't be oversalted.
+\end{enumerate}
+\end{document}

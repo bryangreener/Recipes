@@ -1,0 +1,101 @@
+\documentclass{report}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{tabto}
+\usepackage[yyyymmdd]{datetime}		% Date Formatting
+\renewcommand{\dateseparator}{--}	% Date Formatting
+\usepackage{arydshln} 				% \hdashline and \cdashline
+\newcommand*{\tempb}{\multicolumn{1}{:c}{}} % Used for block matrices
+
+% For clickable TOC
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+% Custom Section Types
+\theoremstyle{plain} % italics
+\newtheorem*{thrm}{Theorem}
+\newtheorem*{lemma}{Lemma}
+\theoremstyle{definition} % normal type
+\newtheorem*{ex}{Example}
+\newtheorem*{defn}{Definition}
+\newtheorem*{result}{Result}
+\theoremstyle{plain} % italics
+
+% For circled text
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0.8pt] (char) {#1};}}
+
+% For equation system alignment
+\usepackage{systeme,mathtools}
+% Usage:
+%	\[
+%	\sysdelim.\}\systeme{
+%	3z +y = 10,
+%	x + y +  z = 6,
+%	3y - z = 13}
+
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+%If you want to title your bold things something different just make another thing exactly like this but replace "problem" with the name of the thing you want, like theorem or lemma or whatever
+ 
+%used for matrix vertical line
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother 
+ 
+% Change chapter numbering
+\newcommand{\mychapter}[2]{
+	\setcounter{chapter}{#1}
+	\setcounter{section}{0}
+	\chapter*{#2}
+	\addcontentsline{toc}{chapter}{#2}
+}
+
+\begin{document}
+% BUILD TOC
+%\tableofcontents{}
+\section*{Chocolate Chip Cookie Recipe}
+\section*{Ingredients}
+\begin{tabular}{r|l|l}
+Qty. & Ingredient & Note\\
+\hline
+1 cup & Unsalted Butter & Melted (or browned) and chilled till room temp\\
+1.5 cup & Brown Sugar & Darker for more molasses flavor\\
+0.5 cup & White Sugar\\
+2 & Eggs\\
+1 tsp & Vanilla Extract\\
+0.25 cup & Maple Syrup\\
+3.25 cup & All Purpose Flour\\
+2 tsp & Cornstarch\\
+1 tsp & Baking Powder\\
+1 tsp & Baking Soda\\
+1 tsp & Kosher Salt\\
+0.75 tsp & Ground Cinnamon & Optional\\
+2 cup & Chocolate Chips
+\end{tabular}
+\section*{Directions}
+\begin{enumerate}
+\item Cream together butter and sugars.
+\item Add eggs one at a time until fully incorporated.
+\item Mix in vanilla extract and maple syrup.
+\item In separate bowl, whisk together flour, cornstarch, baking powder, baking soda, and salt. Optionally add in cinnamon to this mixture as well.
+\item Add half of flour mixture to wet ingredients and mix until it just gets incorporated then add the remaining half. The less mixing the better. Mixing too much will cause gluten to form which leads to a tougher cookie.
+\item Stir in chocolate chips.
+\item Cover bowl with plastic wrap and chill dough for anywhere from 1 hour to 3 days.
+\item Roll dough into balls of desired size and place evenly on parchment paper lined baking sheet just before baking. Don't leave dough to sit out and warm up otherwise the cookie will lose shape too fast.
+\item Optionally, tear the dough balls in half and put the halves together so that the torn edges are facing up. This gives the cookie a more rustic texture.
+\item Bake at $350^\circ$ for 12 to 17 minutes depending on size of cookies. The edges of cookie should just be turning brown and the center will look slightly underdone.
+\item Optionally push some chocolate chips into the tops of the cookies when you take them out of the oven then let cool completely on baking tray.
+\item Another optional addition is to sprinkle some course seasalt over the cookies while they are still hot. Make sure to taste the cookies before adding salt in order to avoid oversalting.
+\end{enumerate}
+\end{document}
